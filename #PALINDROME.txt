@@ -1,0 +1,15 @@
+#PALINDROME
+name = input("Enter name : ")
+str = ""
+for i in name:
+    str = i+str
+print("String is :",str)
+if(name==str):
+    print("The string is palindrom")
+else:
+    print("The string is not palindrome ")
+
+#OUTPUT
+Enter name : Edyoda
+String is  adoydE
+The string is not palindrome
