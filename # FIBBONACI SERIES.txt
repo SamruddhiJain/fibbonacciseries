@@ -1,0 +1,19 @@
+# FIBBONACI SERIES
+
+n= int(input("enter length of fibonacci series :"))
+num = 0
+num1 = 1
+next_num=0
+count = 1
+while(count <= n):
+    print(next_num,end= " ")
+    count += 1
+    num = num1
+    num1= next_num
+    next_num = num+num1
+    t_num = num+num1
+
+
+#OUTPUT:
+enter length of fibonacci series :10
+0 1 1 2 3 5 8 13 21 34 
